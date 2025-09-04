@@ -1,0 +1,1 @@
+export const DOMAIN = 'http://localhost:3000';  // Ou ton domaine local

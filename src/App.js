@@ -1,18 +1,13 @@
+import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import MainRoutes from './routes';
 
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Home from './page/public/Home';
-
-
-function App() {
+const App = () => {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<Home/>} />
-       
-      </Routes>
-      
+      <MainRoutes />
     </BrowserRouter>
   );
-}
+};
 
 export default App;
